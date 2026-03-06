@@ -42,6 +42,14 @@ curl "https://api.groq.com/openai/v1/chat/completions" \
   }'
 ```
 
+**Windows (kommandotolken):**
+```bash
+curl -X POST "https://api.groq.com/openai/v1/chat/completions" ^
+  -H "Content-Type: application/json" ^
+  -H "Authorization: Bearer gsk_...hennes-nyckel..." ^
+  -d "{\"model\":\"llama-3.3-70b-versatile\",\"messages\":[{\"role\":\"user\",\"content\":\"Säg hej på svenska\"}]}"
+```
+
 Du ska se ett svar med `"choices"` och en text.
 
 ### 3. Lägg till UserSecretsId och lagra nyckeln
