@@ -4,6 +4,12 @@ VisualStudioVersion = 18.4.11519.219 insiders
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeminiDemo", "src\GeminiDemo\GeminiDemo.csproj", "{EE7DEEC7-6E89-C6AC-31D7-68637BF6B88D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B3496AAD-B2A2-4376-806F-AAB61BACB1E1}"
+	ProjectSection(SolutionItems) = preProject
+		src\GroqDemo\README-Groq.md = src\GroqDemo\README-Groq.md
+		src\GeminiDemo\README-Gemini.md = src\GeminiDemo\README-Gemini.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

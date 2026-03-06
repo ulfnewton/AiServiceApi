@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>2ab45ec9-483a-45f9-a273-6b71b41a056f</UserSecretsId>
+    <UserSecretsId>dee5c0b1-d7dc-4aba-956a-89d1064c9f86</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
