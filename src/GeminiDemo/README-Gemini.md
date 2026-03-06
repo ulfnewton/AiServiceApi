@@ -25,6 +25,14 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-l
   -d '{"contents":[{"parts":[{"text":"Säg hej på svenska"}]}]}'
 ```
 
+**Windows (kommandotolken):**
+```cmd
+curl -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent" ^
+  -H "Content-Type: application/json" ^
+  -H "X-goog-api-key: AIza...din-nyckel..." ^
+  -d "{\"contents\":[{\"parts\":[{\"text\":\"Säg hej på svenska\"}]}]}"
+```
+
 Du ska se ett JSON-svar med `"candidates"` och en text. Om du ser ett fel – lös det innan du går vidare.
 
 ### 3. Lägg till UserSecretsId i projektet
