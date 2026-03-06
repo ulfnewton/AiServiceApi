@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11519.219
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeminiDemo", "src\GeminiDemo\GeminiDemo.csproj", "{EE7DEEC7-6E89-C6AC-31D7-68637BF6B88D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B3496AAD-B2A2-4376-806F-AAB61BACB1E1}"
+	ProjectSection(SolutionItems) = preProject
+		src\GeminiDemo\README-Gemini.md = src\GeminiDemo\README-Gemini.md
+		src\GroqDemo\README-Groq.md = src\GroqDemo\README-Groq.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE7DEEC7-6E89-C6AC-31D7-68637BF6B88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7DEEC7-6E89-C6AC-31D7-68637BF6B88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7DEEC7-6E89-C6AC-31D7-68637BF6B88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7DEEC7-6E89-C6AC-31D7-68637BF6B88D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37CE17A4-4729-42E6-AC64-25745259B4D8}
+	EndGlobalSection
+EndGlobal
